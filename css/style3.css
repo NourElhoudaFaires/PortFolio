@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi|Domine:400,700');
+
+html,body{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin:0;
+    font-family: 'Domine', serif;
+     /*font-family: 'Baloo Thambi', cursive;*/
+}
+
+
+    .img{ 
+        position: relative;
+        width: 180px;
+        
+        z-index: 3;
+        height:auto;
+        }
+        .text-vertical {
+            color:tomato;
+            font-size:6em;
+            text-align:right;
+            position:relative;
+            width:170px;
+            top:80px;
+            transform:rotate(270deg);
+        -ms-transform:rotate(270deg); /* Internet Explorer */
+        -moz-transform:rotate(270deg); /* Firefox */
+        -webkit-transform:rotate(270deg); /* Safari et Chrome */
+        -o-transform:rotate(270deg); /* Opera */
+        }
+       
